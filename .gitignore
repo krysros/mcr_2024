@@ -1,0 +1,8 @@
+*.pdf
+*.svg
+*.bak
+env/
+__pycache__/
+
+# Jupyter Notebook
+.ipynb_checkpoints

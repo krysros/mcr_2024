@@ -1,0 +1,12 @@
+name: mcr
+channels:
+  - defaults
+dependencies:
+  - numpy
+  - pip
+  - python
+  - pip:
+      - autograd
+      - ezdxf
+      - matplotlib
+      - shapely
