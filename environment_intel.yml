@@ -1,8 +1,10 @@
 name: mcr
 channels:
-  - defaults
+  - https://software.repos.intel.com/python/conda
+  - conda-forge
+  - nodefaults
 dependencies:
-  - python
+  - python=3.12
   - numpy
   - pip
   - pip:

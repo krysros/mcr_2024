@@ -2,19 +2,8 @@
 
 ## Installation
 
-### Conda defaults
-
 ```console
 conda env create -f environment.yml
-conda activate mcr
-```
-
-### Intel® Distribution for Python
-
-```console
-conda create -n idp -c https://software.repos.intel.com/python/conda -c conda-forge --override-channels python=3.12 numpy
-conda activate idp
-pip install autograd ezdxf matplotlib shapely
 ```
 
 ## Why do we use conda instead of pip?
